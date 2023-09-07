@@ -1,0 +1,68 @@
+.footer{
+background-color: rgb(2,0,36);
+
+}
+.footer-img{
+    width: 108px;
+height: 38px;
+}
+.footer-container{
+    padding: 0 229px 120px 229px;
+    display: grid;
+  grid-template-columns: 880px 1fr 1fr;
+    
+}
+
+.textfooter{
+    color: #FFF;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+max-width: 300px;
+font-weight: 700;
+line-height: 32px;
+margin-top: 24px;
+margin-bottom: 122px;
+}
+
+.private{
+    color: #FFF;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+opacity: 0.5;
+}
+.footer-more{
+    margin-left: 112px;
+}
+.footer-blog-text{
+    color: #FBD784;
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; 
+}
+
+.footer-nav{
+    margin: 0 auto;
+    padding-top: 24px;
+}
+
+.footer-link{
+    color: #FFF;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px;
+text-decoration: none;
+
+
+}
+
+.footer-link:hover{
+    color: #fbd784;
+}

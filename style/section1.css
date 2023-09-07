@@ -1,0 +1,127 @@
+.section1{
+  background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(11,29,38,1) 44%, rgba(11,29,38,0.7905287114845938) 100%);
+padding: 0 229px 200px 229px;
+
+
+}
+
+.section1-container{
+  display: inline-flex;
+  margin-top: 240px;
+}
+
+.section-title-container{
+  max-width: 632px;
+ margin: 141px 114px 140px 150px;
+}
+
+.section1-img-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end; 
+}
+
+.section1-img{
+  width: 566px;
+height: 720px;
+}
+
+.line-start{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+
+}
+
+.line-section1{
+  width: 72px;
+height: 2px;
+}
+
+.section1-conds-item--title{
+color: #FBD784;
+font-family: Gilroy;
+font-size: 18px;
+font-weight: 800;
+letter-spacing: 6px;
+text-transform: uppercase;
+padding-left: 24px;
+}
+
+.section1-conds-item--title2{
+  color: #FFF;
+font-family: Chronicle Display;
+font-size: 64px;
+padding-top: 27px;
+padding-bottom: 27px;
+}
+
+.section1-conds-item--description{
+  color: #FFF;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+line-height: 32px;
+font-weight: 700;
+padding-bottom: 27px;
+}
+
+.section1-conds-item--number {
+  color: #FFF;
+  font-family: Gilroy;
+  font-size: 240px;
+  font-weight: 700;
+  opacity: 0.1;
+  position: absolute;
+
+  /* top: -55px;
+  left: -35px; */
+
+  /* margin-top: -55px;
+  margin-left: -35px; */
+
+  transform: translate(-35px, -55px);
+  margin-top: 90px;
+}
+
+.section1-conds-item--title3{
+color: #FBD784;
+font-family: Gilroy;
+font-size: 18px;
+font-weight: 700;
+padding-right: 16px;
+}
+
+.arrow-more{
+  display: flex;
+  flex-direction: row;
+}
+
+.section1-img-arrow{
+  width: 16px;
+height: 24px;
+}
+
+.section1-conds-item--number2 {
+  color: #FFF;
+  font-family: Gilroy;
+  font-size: 240px;
+  font-weight: 700;
+  opacity: 0.1;
+  position: absolute;
+
+
+  /* top: -55px;
+  left: -35px; */
+
+  /* margin-top: -55px;
+  margin-left: -35px; */
+
+  transform: translate(-35px, -55px);
+      margin-top: -100px;
+
+}
