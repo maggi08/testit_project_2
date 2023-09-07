@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Page</title>
+
+    <style>
+      input:focus {
+        outline: none;
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 id="counter">Counter: 0</h1>
+    <button id="counterBtn" onclick="onCounterClick(event)" class="">
+      Click me
+    </button>
+
+    <br />
+
+    <label style="margin-top: 40px; display: block" for="input">
+      What is Your name? - My name is <span id="nameInput">...</span>
+    </label>
+    <input id="input" type="text" value="text" />
+
+    <button id="btn2">Click me 2</button>
+
+    <h2>Button Click</h2>
+
+    <script src="./js/counter.js"></script>
+  </body>
+</html>
